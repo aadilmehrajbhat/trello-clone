@@ -1,0 +1,25 @@
+.board-column
+    .task-item
+        display: flex
+        align-items: center
+        padding: $spacing-base
+        margin-bottom: $spacing-base 
+
+        &__text
+            font-size: 1.1rem
+            line-height: 1.35
+            margin: 0
+            flex: 1
+            min-width: 0
+
+        &__input
+            margin-right: $spacing-sm
+
+        &__actions
+            flex-shrink: 0
+
+        &__edit
+            color: $primary
+
+        &__delete
+            color: $danger
